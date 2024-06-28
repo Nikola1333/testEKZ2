@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Сохранение и защита семейных ценностей</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="container">
+                <img src="img\Logo десятилетие науки и технологий 1.png" alt="Логотип" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#initiatives">Инициативы</a></li>
+                        <li><a href="#events">Мероприятия</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="contacts">
+                    <p>Адрес: г. Москва, ул. Примерная, д. 1</p>
+                    <p>Телефон: +7 (123) 456-78-90</p>
+                    <p>Email: info@example.com</p>
+                </div>
+            </div>
+        </header>
+    
+        <!-- Main Banner -->
+        <section id="main">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img\i.png" alt="Баннер 1">
+                        <p>Основная цель нашего проекта - сохранение традиционных семейных ценностей.</p>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img\Famyli.png" alt="Баннер 2">
+                        <p>Мы реализуем множество инициатив для поддержки семей.</p>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img\live.png" alt="Баннер 3">
+                        <p>Присоединяйтесь к нашим мероприятиям и помогайте укреплять семейные узы.</p>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+    
+        <!-- Initiatives -->
+        <section id="initiatives">
+            <h2>Приоритетные инициативы</h2>
+            <div class="initiatives-container">
+                <div class="initiative">
+                    <h3>Технологии</h3>
+                    <div class="image-container">
+                        <img src="img/amazon-echo-show-video-calling-official-lifestyle-1.png" alt="Баннер 1">
+                    </div>
+                    <div class="initiative-description">
+                        <p>Использование современных технологий для поддержания связи между членами семьи, которые находятся на разных континентах или в разных городах. Это может включать в себя видеозвонки, общение через социальные сети, обмен фотографиями и видео, создание семейных чатов и групп в мессенджерах.</p>
+                        <button onclick="showModal('modal1')">Подробнее</button>
+                        <div id="modal1" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('modal1')">&times;</span>
+                                <p>
+                                    Используя эти технологии, семьи могут поддерживать тесную связь, независимо от расстояния, делиться важными моментами и поддерживать друг друга в любой ситуации.
+                                </p>                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="initiative">
+                    <h3>Время</h3>
+                    <div class="image-container">
+                        <img src="img/GettyImages-596365186-copy.png" alt="Баннер 2">
+                    </div>
+                    <div class="initiative-description">
+                        <p>
+                            Уделять время семье. Это может быть совместное обеденное время, прогулки, игры или общение в течение дня.
+                        </p>
+                        <br>
+                        <br>
+                        <br>
+                        <button onclick="showModal('modal2')">Подробнее</button>
+                        <div id="modal2" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('modal2')">&times;</span>
+                                <p>
+                                    Уделяя время семье, вы инвестируете в самые важные и ценные отношения в вашей жизни.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="initiative">
+                    <h3>Воспитание</h3>
+                    <div class="image-container">
+                        <img src="img/11c24749121d7ec1690f066fe14d05ef.jpg" alt="Баннер 3">
+                    </div>
+                    <div class="initiative-description">
+                        <p>Воспитание детей в духе уважения к традициям и ценностям.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button onclick="showModal('modal3')">Подробнее</button>
+                        <div id="modal3" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('modal3')">&times;</span>
+                                <p>Воспитание в духе уважения к традициям и ценностям способствует формированию сильной и устойчивой личности, способной уважать и ценить свое культурное наследие, понимать и принимать моральные нормы общества. Это позволяет детям вырасти ответственными и сознательными гражданами, способными внести позитивный вклад в развитие общества.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="initiative">
+                    <h3>Семейные мероприятия</h3>
+                    <div class="image-container">
+                        <img src="img/orig.png" alt="Баннер 4">
+                    </div>
+                    <div class="initiative-description">
+                        <p>Семейные мероприятия, такие как праздники и религиозные церемонии, являются важными элементами сохранения традиций. Они укрепляют семейные узы и формируют идентичность.</p>
+                        <br>
+                        <br>
+                        <button onclick="showModal('modal4')">Подробнее</button>
+                        <div id="modal4" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('modal4')">&times;</span>
+                                <p>Семейные мероприятия, такие как праздники и религиозные церемонии, играют ключевую роль в сохранении культурных традиций и укреплении семейных уз. Они не только предоставляют возможность собраться всей семьей, но и способствуют формированию общей идентичности и передаче ценностей от одного поколения к другому. Празднование традиций помогает семье чувствовать свою причастность к истории и культурному наследию, создавая общие воспоминания и укрепляя взаимопонимание.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="initiative">
+                    <h3>Поддержка родительских компетенций</h3>
+                    <div class="image-container">
+                        <img src="img/orig (1).png" alt="Баннер 5">
+                    </div>
+                    <div class="initiative-description">
+                        <p>Проведение программ и курсов для родителей по развитию коммуникационных навыков, воспитанию детей и разрешению конфликтов.</p>
+                        <br>
+                        <br>
+                        <button onclick="showModal('modal5')">Подробнее</button>
+                        <div id="modal5" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('modal5')">&times;</span>
+                                <p>
+                                    Программы могут включать как теоретические материалы, так и практические упражнения, направленные на развитие навыков в реальных ситуациях. Они часто организованы в формате лекций, семинаров или мастер-классов, чтобы родители могли обмениваться опытом и получать обратную связь от специалистов.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="initiative">
+                    <h3>Создание семейных традиций</h3>
+                    <div class="image-container">
+                        <img src="img/photo_2024-06-27_21-13-33.jpg" alt="Баннер 6">
+                    </div>
+                    <div class="initiative-description">
+                        <p>Поддержка и стимулирование создания и поддержания семейных традиций, таких как совместные празднования, общие увлечения и регулярные семейные мероприятия.</p>
+                        <br>
+                        <br>
+                        <button onclick="showModal('modal6')">Подробнее</button>
+                        <div id="modal6" class="modal">
+                            <div class="modal-content">
+                                <span class="close" onclick="closeModal('modal6')">&times;</span>
+                                <p>
+                                    Такие программы помогают семьям не только проводить время вместе, но и развивать взаимопонимание, уважение и поддержку внутри семейного круга.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+        <!-- Meropriyatiya -->
+        <section id="events">
+            <h2>Запланированное мероприятие №1</h2>
+            <div class="events-container">
+                <div class="event">
+                    <h3>Мама, Папа, Я - спортивная семья</h3>
+                    <div class="image-container">
+                        <img src="img\sport.png" alt="Баннер 1">
+                    </div>
+                    <p>Семейные спортивные соревнования, включающие эстафеты, командные игры и индивидуальные конкурсы. Это отличная возможность провести время вместе, поддерживая друг друга и укрепляя здоровье.</p>
+                    <button onclick="showRegistrationForm('registration1')">Регистрация</button>
+                    <div id="registration1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeRegistrationForm('registration1')">&times;</span>
+                            <form>
+                                <label for="name">ФИО:</label>
+                                <input type="text" id="name" name="name" required>
+                                <label for="participation">Форма участия:</label>
+                                <select id="participation" name="participation" required>
+                                    <option value="offline">Очно</option>
+                                    <option value="online">Онлайн</option>
+                                </select>
+                                <label for="date">Дата:</label>
+                                <input type="date" id="date" name="date" required>
+                                <button type="reset">Очистить форму</button>
+                                <br>
+                                <button type="submit">Зарегистрироваться</button>
+                                <br>
+                                <button type="button" onclick="closeRegistrationForm('registration1')">Закрыть</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Запланированное мероприятие №2</h2>
+            <div class="events-container">
+                <div class="event">
+                    <h3>Семейный туризм</h3>
+                    <div class="image-container">
+                        <img src="img\turizm.png" alt="Баннер 2">
+                    </div>
+                    <p>Путешествия всей семьей для исследования новых мест и культур. Это могут быть походы, велосипедные поездки или поездки к морю, создающие незабываемые воспоминания и укрепляющие семейные узы.</p>
+                    <button onclick="showRegistrationForm('registration1')">Регистрация</button>
+                    <div id="registration1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeRegistrationForm('registration1')">&times;</span>
+                            <form>
+                                <label for="name">ФИО:</label>
+                                <input type="text" id="name" name="name" required>
+                                <label for="participation">Форма участия:</label>
+                                <select id="participation" name="participation" required>
+                                    <option value="offline">Очно</option>
+                                    <option value="online">Онлайн</option>
+                                </select>
+                                <label for="date">Дата:</label>
+                                <input type="date" id="date" name="date" required>
+                                <button type="reset">Очистить форму</button>
+                                <br>
+                                <button type="submit">Зарегистрироваться</button>
+                                <br>
+                                <button type="button" onclick="closeRegistrationForm('registration1')">Закрыть</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>Запланированное мероприятие №3</h2>
+            <div class="events-container">
+                <div class="event">
+                    <h3>Семейная фотосессия</h3>
+                    <div class="image-container">
+                        <img src="img\foto.png" alt="Баннер 3">
+                    </div>
+                    <p>Профессиональная фотосессия для всей семьи, запечатлевающая счастливые моменты. Это может быть на природе или дома, с использованием реквизита, отражающего семейные увлечения и традиции.</p>
+                    <button onclick="showRegistrationForm('registration1')">Регистрация</button>
+                    <div id="registration1" class="modal">
+                        <div class="modal-content">
+                            <span class="close" onclick="closeRegistrationForm('registration1')">&times;</span>
+                            <form>
+                                <label for="name">ФИО:</label>
+                                <input type="text" id="name" name="name" required>
+                                <label for="participation">Форма участия:</label>
+                                <select id="participation" name="participation" required>
+                                    <option value="offline">Очно</option>
+                                    <option value="online">Онлайн</option>
+                                </select>
+                                <label for="date">Дата:</label>
+                                <input type="date" id="date" name="date" required>
+                                <button type="reset">Очистить форму</button>
+                                <br>
+                                <button type="submit">Зарегистрироваться</button>
+                                <br>
+                                <button type="button" onclick="closeRegistrationForm('registration1')">Закрыть</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Footer -->
+        <footer id="contact">
+            <div class="footer-container">
+                <p>&copy; 2024 Сохранение и защита семейных ценностей</p>
+                <img src="img\Logo десятилетие науки и технологий 1.png" alt="Логотип">
+                <nav>
+                    <ul>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#initiatives">Инициативы</а>
+                        <li><a href="#events">Мероприятия</а>
+                        <li><a href="#contact">Контакты</а>
+                    </ul>
+                </nav>
+                <div class="contacts">
+                    <p>Телефон: +7 (123) 456-78-90</p>
+                    <p>Email: info@example.com</p>
+                </div>
+                <div class="social">
+                    <a href="#">VK</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Instagram</a>
+                </div>
+                <button onclick="scrollToTop()">Вверх</button>
+            </div>
+        </footer>
+    
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const swiper = new Swiper('.swiper-container', {
+                    loop: true,
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                });
+    
+                // Останавливаем автопрокрутку при наведении курсора на изображение
+                document.querySelectorAll('.swiper-slide img').forEach(img => {
+                    img.addEventListener('mouseenter', () => {
+                        swiper.autoplay.stop();
+                    });
+                    img.addEventListener('mouseleave', () => {
+                        swiper.autoplay.start();
+                    });
+                });
+            });
+
+            // Функции для открытия и закрытия модальных окон
+function showModal(id) {
+    document.getElementById(id).style.display = 'block';
+}
+
+function closeModal(id) {
+    document.getElementById(id).style.display = 'none';
+}
+
+function showRegistrationForm(id) {
+    document.getElementById(id).style.display = 'block';
+}
+
+function closeRegistrationForm(id) {
+    document.getElementById(id).style.display = 'none';
+}
+
+// Функция для прокрутки наверх
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Проверка формы регистрации
+document.querySelectorAll('form').forEach(form => {
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const name = form.querySelector('#name').value;
+        const participation = form.querySelector('#participation').value;
+        const date = form.querySelector('#date').value;
+
+        if (name && participation && date) {
+            alert('Вы успешно зарегистрировались!');
+            form.reset();
+            closeRegistrationForm(form.closest('.modal').id);
+        } else {
+            alert('Пожалуйста, заполните все поля формы.');
+        }
+    });
+});
+
+        </script>
+    </body>
+    </html>
